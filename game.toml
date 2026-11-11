@@ -1,0 +1,12 @@
+slug = "towerunite"
+steam_appid = 394690
+adapter = "ue_locres"
+track = "d"
+pipeline_repo = "/mnt/h/02_Workspace/40_WSL/kjk-l10n-ko/tools-l10n-ko"
+pipeline_ref = "main"
+game = "Tower"
+source = "/mnt/s/Installation/Steam/steamapps/common/Tower Unite"
+font = ""                       # 게임 내장 Roboto/Boogaloo + 엔진 DroidSansFallback 로 한글 렌더 확인됨 — 교체 불필요
+pak_version = "V8A"             # pakchunk0-WindowsNoEditor.pak 과 동일 (V11 이면 크래시)
+locres_version = 2              # UE4.22 는 v3(CityHash) 를 못 읽는다. 이 게임 Engine.locres 가 v2
+mount = "../../../Tower/Content/" # repak pack 시 쓰는 mount point (locres 경로 기준)
